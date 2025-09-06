@@ -465,8 +465,22 @@
     }
 
     .index-banner {
-    height: 40vh;
-    background-image: url(../img/images/cover.svg);
-  }
+      height: 40vh;
+      background-image: url(../img/images/cover.svg);
+    }
+
+    .job-card {
+      background-color: white;
+      border: 1px solid #dee2e6;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .job-card:hover {
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-3px);
+    }
 
   }
